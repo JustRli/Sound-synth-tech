@@ -2,7 +2,7 @@
     "name": "Project 1",
     "version": 1,
     "creationdate": 3852757391,
-    "modificationdate": 3852758393,
+    "modificationdate": 3852760502,
     "viewrect": [ 50.0, 132.0, 300.0, 500.0 ],
     "autoorganize": 1,
     "hideprojectwindow": 0,
@@ -32,6 +32,14 @@
                 "local": 1
             },
             "04.additive.maxpat": {
+                "kind": "patcher",
+                "local": 1
+            },
+            "01.basic.waveforms.v01.maxpat": {
+                "kind": "patcher",
+                "local": 1
+            },
+            "02.ADSR.maxpat": {
                 "kind": "patcher",
                 "local": 1
             }
