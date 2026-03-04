@@ -9,15 +9,35 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 270.0, 310.0, 1000.0, 780.0 ],
+        "rect": [ 597.0, 168.0, 1000.0, 780.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-8",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 79.0, 292.0, 58.0, 22.0 ],
+                    "text": "bach.roll-"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-7",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 79.0, 255.0, 42.0, 22.0 ],
+                    "text": "poly~-"
+                }
+            },
             {
                 "box": {
                     "id": "obj-5",
                     "maxclass": "newobj",
                     "numinlets": 0,
                     "numoutlets": 0,
-                    "patching_rect": [ 79.0, 257.0, 117.0, 22.0 ],
+                    "patching_rect": [ 79.0, 221.0, 117.0, 22.0 ],
                     "text": "lg.random.notes.v01"
                 }
             },
@@ -47,7 +67,7 @@
                     "maxclass": "newobj",
                     "numinlets": 0,
                     "numoutlets": 0,
-                    "patching_rect": [ 79.0, 210.0, 97.0, 22.0 ],
+                    "patching_rect": [ 79.0, 188.0, 97.0, 22.0 ],
                     "text": "Ig.sound.out.v01"
                 }
             },
@@ -83,12 +103,25 @@
                         ],
                         "lines": []
                     },
-                    "patching_rect": [ 84.0, 79.0, 61.0, 22.0 ],
+                    "patching_rect": [ 79.0, 80.0, 61.0, 22.0 ],
                     "text": "p shortcut"
                 }
             }
         ],
         "lines": [],
+        "parameters": {
+            "obj-8::obj-56": [ "live.gain~[1]", "live.gain~", 0 ],
+            "obj-8::obj-59": [ "live.gain~", "live.gain~", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
         "autosave": 0
     }
 }
